@@ -20,6 +20,7 @@
         const buttons = document.querySelectorAll('.content-btn');
 
         // Complete your resource-object that will store the dynamic content
+        // Resource object - 3 sub-objects
         const resourceObject = {
             solarSolutions: {
                 headingContent: "Affordable Solar Panel Systems",
@@ -73,7 +74,7 @@
                 <p>${selectedContent.bodyText}</p>
             `;
         }
-        // Close your handleSelection function here
+    
 
         // Register all buttons to click event
         for (let i = 0; i < buttons.length; i++) {
